@@ -2,16 +2,15 @@ package main
 
 import (
 	"fmt"
-	"log"
 	"net/http"
 
 	"github.com/SoftBlankie/ChatApp/pkg/websocket"
 )
 
 func serveWs(w http.ResponseWriter, r *http.Request) {
-	ws, err := upgrader.Upgrade(w, r, nil)
+	ws, err := websocket.Upgrade(w, r)
 	if err != nil {
-		log.Fprintf(w, "%+V\n", err)
+		fmt.Fprintf(w, "%+V\n", err)
 	}
 	go websocket.Writer(ws)
 	websocket.Reader(ws)
