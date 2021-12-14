@@ -36,16 +36,16 @@
 <h3 align="center">chat-app</h3>
 
   <p align="center">
-    
+    One room anonymous chat application written in Golang and React.js
     <br />
-    <a href="https://github.com/SoftBlankie/chat-app"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/SoftBlankie/dsa-twitter-bot"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/SoftBlankie/chat-app">View Demo</a>
+    <a href="https://github.com/SoftBlankie/dsa-twitter-bot">View Demo</a>
     ·
-    <a href="https://github.com/SoftBlankie/chat-app/issues">Report Bug</a>
+    <a href="https://github.com/SoftBlankie/dsa-twitter-bot/issues">Report Bug</a>
     ·
-    <a href="https://github.com/SoftBlankie/chat-app/issues">Request Feature</a>
+    <a href="https://github.com/SoftBlankie/dsa-twitter-bot/issues">Request Feature</a>
   </p>
 </div>
 
